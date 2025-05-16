@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rps-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rps-counter
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    volumes:
+      - .:/app
+      - /app/node_modules

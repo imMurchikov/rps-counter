@@ -1,0 +1,11 @@
+{
+  "name": "rps-counter",
+  "version": "1.0.0",
+  "description": "count requests per second",
+  "main": "app.js",
+  "author": "murchikov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
